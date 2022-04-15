@@ -1,4 +1,4 @@
-const helloBlockchain = artifacts.require("Migrations");
+var helloBlockchain = artifacts.require("./HelloBlockchain.sol");
 
 module.exports = function(deployer) {
     deployer.deploy(helloBlockchain);
